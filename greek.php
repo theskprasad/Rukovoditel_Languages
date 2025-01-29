@@ -22,7 +22,7 @@ define('TEXT_FIELDTYPE_INPUT_DATE_TITLE','Ημερομηνία με επιλογ
 define('TEXT_FIELDTYPE_INPUT_DATETIME_TITLE','Ημερομηνία με επιλογέα ημερολογίου και ώρας');
 define('TEXT_FIELDTYPE_INPUT_FILE_TITLE','Πεδίο αρχείου');
 define('TEXT_FIELDTYPE_ATTACHMENTS_TITLE','Συνημμένα');
-define('TEXT_FIELDTYPE_TEXTAREA_TITLE','Περιοχή κειμένου');
+define('TEXT_FIELDTYPE_TEXTAREA_TITLE','Textarea');
 define('TEXT_FIELDTYPE_TEXTAREA_WYSIWYG_TITLE','Textarea με επεξεργαστή WYSIWYG');
 define('TEXT_FIELDTYPE_DROPDOWN_TITLE','Αναπτυσσόμενη λίστα');
 define('TEXT_FIELDTYPE_DROPDOWN_MULTIPLE_TITLE','Αναπτυσσόμενη πολυεπιλογή');
