@@ -204,7 +204,7 @@ define('TEXT_NAV_COMMENTS_CONFIG','Διαμόρφωση σχολίων');
 define('TEXT_NAV_COMMENTS_ACCESS','Πρόσβαση στα σχόλια');
 define('TEXT_NAV_COMMENTS_FIELDS','Φόρμα σχολίων');
 define('TEXT_NAV_COMMENTS_FORM_CONFIG','Διαμόρφωση φόρμας σχολίων');
-#VALUE!
+
 define('TEXT_USERNAME','Όνομα χρήστη');
 define('TEXT_PASSWORD','Σύνθημα');
 define('TEXT_ARE_YOU_SURE','Είσαι σίγουρος;');
