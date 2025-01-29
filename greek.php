@@ -1,10 +1,11 @@
+// Version 3.6.1
 <?php  
 /**
  * Set language short cooe here (ISO 639-1 Code)
  * See Language Code Reference 
  * http://www.w3schools.com/tags/ref_language_codes.asp
  */  
-define('APP_LANGUAGE_SHORT_CODE','en'); 
+define('APP_LANGUAGE_SHORT_CODE','el'); 
 
 /**
  * Set the text direction: (ltr or rtl)
@@ -13,39 +14,39 @@ define('APP_LANGUAGE_SHORT_CODE','en');
  */
 define('APP_LANGUAGE_TEXT_DIRECTION','ltr');
  
-define('TEXT_FIELDTYPE_INPUT_TITLE','Input Field');
-define('TEXT_FIELDTYPE_INPUT_NUMERIC_TITLE','Input Numeric Field');
-define('TEXT_FIELDTYPE_INPUT_NUMERIC_COMMENTS_TITLE','Input Numeric Field in Comments');
-define('TEXT_FIELDTYPE_INPUT_URL_TITLE','Input URL Field');
-define('TEXT_FIELDTYPE_INPUT_DATE_TITLE','Date with calendar picker');
-define('TEXT_FIELDTYPE_INPUT_DATETIME_TITLE','Date with calendar and time picker');
-define('TEXT_FIELDTYPE_INPUT_FILE_TITLE','File Field');
-define('TEXT_FIELDTYPE_ATTACHMENTS_TITLE','Attachments');
-define('TEXT_FIELDTYPE_TEXTAREA_TITLE','Textarea');
-define('TEXT_FIELDTYPE_TEXTAREA_WYSIWYG_TITLE','Textarea with WYSIWYG editor');
-define('TEXT_FIELDTYPE_DROPDOWN_TITLE','Dropdown list');
-define('TEXT_FIELDTYPE_DROPDOWN_MULTIPLE_TITLE','Dropdown multiselect');
-define('TEXT_FIELDTYPE_CHECKBOXES_TITLE','Checkboxes');
-define('TEXT_FIELDTYPE_RADIOBOXES_TITLE','Radioboxes');
-define('TEXT_FIELDTYPE_FORMULA_TITLE','MySQL Formula');
-define('TEXT_FIELDTYPE_USERS_TITLE','Users');
-define('TEXT_FIELDTYPE_GROUPEDUSERS_TITLE','Grouped Users');
-define('TEXT_FIELDTYPE_ENTITY_TITLE','Entity');
-define('TEXT_FIELDTYPE_ACTION_TITLE','Action');
-define('TEXT_FIELDTYPE_ID_TITLE','ID');
-define('TEXT_FIELDTYPE_DATEADDED_TITLE','Date Added');
-define('TEXT_FIELDTYPE_CREATEDBY_TITLE','Created By');
-define('TEXT_FIELDTYPE_USER_STATUS_TITLE','User Status');
-define('TEXT_FIELDTYPE_USER_ACCESSGROUP_TITLE','Access Group');
-define('TEXT_FIELDTYPE_USER_FIRSTNAME_TITLE','First Name');
-define('TEXT_FIELDTYPE_USER_LASTNAME_TITLE','Last Name');
-define('TEXT_FIELDTYPE_USER_EMAIL_TITLE','User Email');
-define('TEXT_FIELDTYPE_USER_PHOTO_TITLE','Photo');
-define('TEXT_FIELDTYPE_USER_LANGUAGE_TITLE','Language');
-define('TEXT_FIELDTYPE_USER_USERNAME_TITLE','Username');
-define('TEXT_FIELDTYPE_USER_PASSWORD_TITLE','Password');
-define('TEXT_FIELDTYPE_USER_SKIN_TITLE','Skin');
-define('TEXT_FIELDTYPE_PROGRESS_TITLE','Progress');
+define('TEXT_FIELDTYPE_INPUT_TITLE','Πεδίο εισαγωγής');
+define('TEXT_FIELDTYPE_INPUT_NUMERIC_TITLE','Αριθμητικό πεδίο εισαγωγής');
+define('TEXT_FIELDTYPE_INPUT_NUMERIC_COMMENTS_TITLE','Εισαγάγετε το αριθμητικό πεδίο στα σχόλια');
+define('TEXT_FIELDTYPE_INPUT_URL_TITLE','Πεδίο εισαγωγής URL');
+define('TEXT_FIELDTYPE_INPUT_DATE_TITLE','Ημερομηνία με επιλογέα ημερολογίου');
+define('TEXT_FIELDTYPE_INPUT_DATETIME_TITLE','Ημερομηνία με επιλογέα ημερολογίου και ώρας');
+define('TEXT_FIELDTYPE_INPUT_FILE_TITLE','Πεδίο αρχείου');
+define('TEXT_FIELDTYPE_ATTACHMENTS_TITLE','Συνημμένα');
+define('TEXT_FIELDTYPE_TEXTAREA_TITLE','Περιοχή κειμένου');
+define('TEXT_FIELDTYPE_TEXTAREA_WYSIWYG_TITLE','Textarea με επεξεργαστή WYSIWYG');
+define('TEXT_FIELDTYPE_DROPDOWN_TITLE','Αναπτυσσόμενη λίστα');
+define('TEXT_FIELDTYPE_DROPDOWN_MULTIPLE_TITLE','Αναπτυσσόμενη πολυεπιλογή');
+define('TEXT_FIELDTYPE_CHECKBOXES_TITLE','Πλαίσια ελέγχου');
+define('TEXT_FIELDTYPE_RADIOBOXES_TITLE','Ραδιοκιβώτια');
+define('TEXT_FIELDTYPE_FORMULA_TITLE','Φόρμουλα MySQL');
+define('TEXT_FIELDTYPE_USERS_TITLE','Χρήστες');
+define('TEXT_FIELDTYPE_GROUPEDUSERS_TITLE','Ομαδοποιημένοι χρήστες');
+define('TEXT_FIELDTYPE_ENTITY_TITLE','Οντότητα');
+define('TEXT_FIELDTYPE_ACTION_TITLE','Δράση');
+define('TEXT_FIELDTYPE_ID_TITLE','ταυτότητα');
+define('TEXT_FIELDTYPE_DATEADDED_TITLE','Ημερομηνία Προσθήκης');
+define('TEXT_FIELDTYPE_CREATEDBY_TITLE','Δημιουργήθηκε από');
+define('TEXT_FIELDTYPE_USER_STATUS_TITLE','Κατάσταση χρήστη');
+define('TEXT_FIELDTYPE_USER_ACCESSGROUP_TITLE','Ομάδα πρόσβασης');
+define('TEXT_FIELDTYPE_USER_FIRSTNAME_TITLE','Ονομα');
+define('TEXT_FIELDTYPE_USER_LASTNAME_TITLE','Επώνυμο');
+define('TEXT_FIELDTYPE_USER_EMAIL_TITLE','Email χρήστη');
+define('TEXT_FIELDTYPE_USER_PHOTO_TITLE','Φωτογραφία');
+define('TEXT_FIELDTYPE_USER_LANGUAGE_TITLE','Γλώσσα');
+define('TEXT_FIELDTYPE_USER_USERNAME_TITLE','Όνομα χρήστη');
+define('TEXT_FIELDTYPE_USER_PASSWORD_TITLE','Σύνθημα');
+define('TEXT_FIELDTYPE_USER_SKIN_TITLE','Δέρμα');
+define('TEXT_FIELDTYPE_PROGRESS_TITLE','Πρόοδος');
 
 define('TEXT_FIELDTYPE_INPUT_TOOLTIP','Simple input text field.');
 define('TEXT_FIELDTYPE_INPUT_NUMERIC_TOOLTIP','This field uses for numbers.');
