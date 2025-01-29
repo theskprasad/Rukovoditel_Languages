@@ -181,9 +181,9 @@ define('TEXT_EMAIL_SMTP_PASSWORD','Κωδικός πρόσβασης SMTP');
 define('TEXT_EMAIL_SMTP_CONFIGURATION','Διαμόρφωση SMTP');
 define('TEXT_HEADING_USER_REGISTRATION_EMAIL','Email εγγραφής χρήστη');
 define('TEXT_MENU_USER_REGISTRATION_EMAIL','Email εγγραφής χρήστη');
-define('TEXT_NEW_USER_DEFAULT_EMAIL_SUBJECT','#VALUE!');
+define('TEXT_NEW_USER_DEFAULT_EMAIL_SUBJECT','Your account has been created in ' . CFG_APP_NAME);
 define('TEXT_REGISTRATION_EMAIL_SUBJECT','Θέμα:');
-define('TEXT_REGISTRATION_EMAIL_SUBJECT_NOTE','#VALUE!');
+define('TEXT_REGISTRATION_EMAIL_SUBJECT_NOTE','Default subject is :"' . TEXT_NEW_USER_DEFAULT_EMAIL_SUBJECT);
 define('TEXT_REGISTRATION_EMAIL_BODY','Σώμα:');
 define('TEXT_REGISTRATION_EMAIL_BODY_NOTE','Τα στοιχεία σύνδεσης θα συμπεριληφθούν αυτόματα στο κάτω μέρος του σώματος του email');
 
@@ -899,7 +899,7 @@ define('TEXT_FIELDTYPE_BARCODE_TITLE','Barcode');
 define('TEXT_FIELDTYPE_BARCODE_TOOLTIP','Με τη μορφή ενός πεδίου εγγραφής, η τιμή του πεδίου αποθηκεύεται ως αριθμός και στο πεδίο προτύπου εξαγωγής εμφανίζεται στην εικόνα ο πραγματικός γραμμωτός κώδικας.');
 define('TEXT_FIELDTYPE_BARCODE_HEIGHT_TIP','Το ύψος του barcode. Η προεπιλογή είναι 30 pixel.');
 define('TEXT_FIELDTYPE_BARCODE_TYPE','Τύπος γραμμικού κώδικα');
-define('TEXT_FIELDTYPE_BARCODE_TYPE_TIP','#VALUE!');
+define('TEXT_FIELDTYPE_BARCODE_TYPE_TIP','');
 define('TEXT_DISPLAY_FIELD_VALUE','Εμφάνιση τιμής πεδίου');
 define('TEXT_FIELDTYPE_BARCODE_DSIPLAY_TIP','Κατά την εξαγωγή, από προεπιλογή, εμφανίζεται μόνο ο γραμμωτός κώδικας');
 define('TEXT_FIELDTYPE_BARCODE_METHOD_GENERATING','Μέθοδος δημιουργίας αξίας');
@@ -907,7 +907,6 @@ define('TEXT_FIELDTYPE_BARCODE_METHOD_GENERATING_TIP','Χρησιμοποιήσ�
 define('TEXT_FIELDTYPE_BARCODE_METHOD_GENERATING_TIP_ICON','Εισαγάγετε τη μέθοδο δημιουργίας ή αφήστε το πεδίο κενό. Η τιμή θα δημιουργηθεί αυτόματα όταν κάνετε κλικ στο κουμπί "Αποθήκευση".');
 define('TEXT_INPUT_FIELD_MASK_DEFINITIONS','Ορισμοί μάσκας');
 define('TEXT_INPUT_FIELD_MASK_DEFINITIONS_TIP','Τώρα μπορείτε να παρέχετε τους δικούς σας ορισμούς μάσκας. Εισαγάγετε κάθε ορισμό σε νέα γραμμή, για παράδειγμα:<br>~=[+-]<br>h=[A-Fa-f0-9]');
-define('TEXT_INPUT_FIELD_MASK_DEFINITIONS_TIP_ICON','#VALUE!');
 define('TEXT_INPUT_FIELD_MASK_DEFINITIONS_TIP_ICON','
 [abc]	- Any character between the brackets<br>
 [^abc] - Any character NOT between the brackets<br>
@@ -1069,7 +1068,7 @@ define('TEXT_FREE_SUPPORT','Δωρεάν υποστήριξη');
 define('TEXT_BUY_EXTENSION','Αγορά επέκτασης');
 define('TEXT_EXTENSION_FEATURES','Χαρακτηριστικά επέκτασης');
 define('TEXT_EXTENSION_FEATURES_INFO','Η επέκταση περιλαμβάνει ένα σύνολο αναφορών και εργαλείων για καλύτερο σχεδιασμό και διαχείριση.');
-define('TEXT_EXTENSION_FEATURES_LIST','#VALUE!');
+define('TEXT_EXTENSION_FEATURES_LIST','');
 define('TEXT_HIDE_ADMIN','Απόκρυψη διαχειριστών');
 define('TEXT_ACTION_IMPORT_DATA','Εισαγωγή δεδομένων');
 define('TEXT_ACTION_UPDATE_DATA','Ενημέρωση δεδομένων');
