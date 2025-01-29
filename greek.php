@@ -565,12 +565,12 @@ define('TEXT_MENU_ICON_TITLE_TOOLTIP','Εισαγάγετε το όνομα το
 define('TEXT_FIELDTYPE_INPUT_MASKED','Καταχώριση με μάσκα');
 define('TEXT_FIELDTYPE_INPUT_MASKED_TOOLTIP','Για να εισαγάγετε τα δεδομένα σε συγκεκριμένη μορφή (ημερομηνίες, αριθμοί τηλεφώνου, κ.λπ.)');
 define('TEXT_INPUT_FIELD_MASK','Μάσκα');
-define('TEXT_INPUT_FIELD_MASK_TIP','#VALUE!');
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
+define('TEXT_INPUT_FIELD_MASK_TIP','For example: 99/99/9999 or (999) 999-9999 or a*-999-a999<br>
+<ul>
+  <li>a - Represents an alpha character (A-Z,a-z)</li>
+  <li>9 - Represents a numeric character (0-9)</li>
+  <li>* - Represents an alphanumeric character (A-Z,a-z,0-9)</li>
+</ul>');
 define('TEXT_MENU_REVIEWS','Κριτικές');
 define('TEXT_AVAILABLE_FIELDS','Διαθέσιμα Πεδία');
 define('TEXT_NO_NUMERIC_FIELDS','Δεν υπάρχουν αριθμητικά πεδία που μπορείτε να χρησιμοποιήσετε.');
@@ -620,13 +620,13 @@ define('TEXT_FILTER_BY_OVERDUE_DATE','Μόνο καθυστερημένες ημ
 define('TEXT_FILTER_BY_MONTH_TOOLTIP','Διαθέσιμες τιμές: <code>0</code> - ο τρέχων μήνας, <code>-1</code> - ο προηγούμενος μήνας, <code>+1</code> - ο επόμενος μήνας. Μπορείτε επίσης να καθορίσετε πολλές τιμές: <code>-1&2&3</code>, <code>>=0</code>, <code>>0&<0</code>');
 define('TEXT_FILTER_BY_YEAR_TOOLTIP','Διαθέσιμες τιμές: <code>0</code> - φέτος, <code>-1</code> - το προηγούμενο έτος, <code>1</code> - το επόμενο έτος. Μπορείτε επίσης να καθορίσετε πολλές τιμές: <code>-1&2&3</code>, <code>>=0</code>, <code>>0&<0</code>');
 define('TEXT_RESERVED_FORM_TAB','Καρτέλα δεσμευμένης φόρμας. Μπορείτε να αλλάξετε το Όνομα αλλά δεν μπορείτε να το διαγράψετε.');
-define('TEXT_FIELDTYPE_RELATED_RECORDS_TOOLTIP_EXTRA','#VALUE!');
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
+define('TEXT_FIELDTYPE_RELATED_RECORDS_TOOLTIP_EXTRA','
+  <span class="help-block">
+    <span class="label label-sm label-info">Note:</span>
+    this field is not displayed in the form of the creation of the record. Add related items possible after the record was created.
+  </span>');
+
+//new defines for version 1.7
 define('TEXT_ASSIGNED_TO','Ανατέθηκε σε');
 define('TEXT_DISPLAY_IN_HEADER','Στην Κεφαλίδα');
 define('TEXT_DISPLAY_IN_HEADER_TOOLTIP','Το εικονίδιο αναφοράς θα εμφανιστεί στο επάνω μενού πλοήγησης.');
@@ -733,27 +733,27 @@ define('TEXT_IS_UNIQUE_FIELD_VALUE_TIP','Η εισαγόμενη τιμή θα �
 define('TEXT_PLEASE_WAIT_UNIQUE_FIELDS_CHECKING','Επικυρώνει τα δεδομένα. Θα προσπαθήσει ξανά μετά από λίγα δευτερόλεπτα.');
 define('TEXT_UNIQUE_FIELD_VALUE_ERROR','Η τιμή του πεδίου πρέπει να είναι μοναδική');
 define('TEXT_UNIQUE_FIELD_VALUE_ERROR_GENERAL','Ορισμένα πεδία πρέπει να είναι μοναδικά. Σημειώνονται παραπάνω.');
-define('TEXT_IMPORT_DATA_TOOLTIP','#VALUE!');
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
+define('TEXT_IMPORT_DATA_TOOLTIP','Before start import, you must prepare the data in Excel
+<ul>
+  <li>date format: YY-MM-DD</li>	
+  <li>format date and time: YY-MM-DD HH:MM</li>
+  <li>numbers format: 20000.00 (number of decimal points - any, separator for the decimal point - dot, thousands separator - none)</li>
+  <li>boolean field: true | false</li>
+</ul>  
+Duplicate fields that require prepare, and using formulas in Excel, prepare the data. Need to resave the data as values, otherwise, the formulae are imported.');
+
+//new defines for version 1.8
 define('TEXT_WARN_DELETE_ENTITY_HAS_RELATIONSHIP','Δεν μπορείτε να διαγράψετε την οντότητα <b>%s</b> επειδή έχει σχέση με: <br>%s.<br><br>Διαγράψτε όλα τα πεδία που σχετίζονται με αυτήν την οντότητα.');
 define('TEXT_SEARCH_IN_ALL','Απενεργοποιήστε τα φίλτρα');
 define('TEXT_SEARCH_TYPE_AND','Αναζήτηση όλων των λέξεων');
 define('TEXT_SEARCH_TYPE_MATCH','Ακριβής αντιστοιχία');
 define('TEXT_SEARCH_HELP_INFO_CONFIGURATION','Ρυθμίσεις αναζήτησης');
-define('TEXT_SEARCH_HELP_INFO_CONFIGURATION_DESCRIPTION','#VALUE!');
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
+define('TEXT_SEARCH_HELP_INFO_CONFIGURATION_DESCRIPTION','
+			<ul>
+				<li>Disable filters<br>This option expands the search area by disabling filters.</li>
+				<li>Search all words<br>Will show records that contain all words.</li>
+				<li>Exact match<br>Will show records that contain the exact match keywords.</li>
+			</ul>');
 define('TEXT_IS_ACTIVE_FILTER','Ενεργό φίλτρο;');
 define('TEXT_IS_ACTIVE_FILTER_INFO','Τα ανενεργά φίλτρα εμφανίζονται στη λίστα των εγκατεστημένων φίλτρων, αλλά δεν χρησιμοποιούνται κατά την ανάκτηση δεδομένων');
 define('TEXT_SAVE_AS_TEMPLATE','Αποθήκευση ως πρότυπο');
@@ -787,9 +787,9 @@ define('TEXT_DELETE_SELECTED_CONFIRMATION','Είστε βέβαιοι ότι θ�
 define('TEXT_QUICK_COMMENT','Γρήγορο σχόλιο');
 define('TEXT_COMMENT_PLACEHOLDER','Εισαγάγετε το σχόλιό σας εδώ');
 define('TEXT_REPLY','Απάντηση');
-define('TEXT_USERS_IMPORT_NOTE','#VALUE!');
-#VALUE!
-#VALUE!
+define('TEXT_USERS_IMPORT_NOTE','When you import users, the following fields are mandatory: First name, Last Name, E-mail. If the Username is not specified, it uses the Username from E-mail<br>
+<b>Please note:</b> that when you import users, notification of the new account not sent. Due to the fact that the web servers have limitations on the number of mail sending at once.<br>
+Imported user must use the Restore Password form to retrieve his password.');
 define('TEXT_USERS_IMPORT_USERS_GROUP','Επιλέξτε Access Group from Users');
 define('TEXT_IMPORT_BIND_FIELDS_ERROR','Σφάλμα εισαγωγής: μην επιλέξετε τα πεδία που σχετίζονται με τις στήλες του πίνακα');
 define('TEXT_IMPORT_BIND_USERS_FIELDS_ERROR','Σφάλμα εισαγωγής: τα επόμενα πεδία είναι υποχρεωτικά: Όνομα, Επώνυμο, E-mail');
@@ -873,8 +873,8 @@ define('TEXT_MAILER_ERROR','Σφάλμα κατά την αποστολή μην
 define('TEXT_HIDE_INSERT_BUTTON_IN_REPORTS','Απόκρυψη κουμπιού εισαγωγής στις αναφορές');
 define('TEXT_DISABLE_NOTIFICATIONS_FIELDS_INFO','Οι χρήστες που έχουν ανατεθεί δεν θα λαμβάνουν ειδοποιήσεις');
 define('TEXT_FROM_TO','από %s έως %s');
-#VALUE!
-#VALUE!
+
+//new defines for version 1.9
 define('TEXT_MOVE_LEFT','Μετακίνηση αριστερά');
 define('TEXT_MOVE_RIGHT','Μετακινηθείτε δεξιά');
 define('TEXT_LIMITED_ACCESS','Περιορισμένη πρόσβαση');
@@ -908,11 +908,12 @@ define('TEXT_FIELDTYPE_BARCODE_METHOD_GENERATING_TIP_ICON','Εισαγάγετε
 define('TEXT_INPUT_FIELD_MASK_DEFINITIONS','Ορισμοί μάσκας');
 define('TEXT_INPUT_FIELD_MASK_DEFINITIONS_TIP','Τώρα μπορείτε να παρέχετε τους δικούς σας ορισμούς μάσκας. Εισαγάγετε κάθε ορισμό σε νέα γραμμή, για παράδειγμα:<br>~=[+-]<br>h=[A-Fa-f0-9]');
 define('TEXT_INPUT_FIELD_MASK_DEFINITIONS_TIP_ICON','#VALUE!');
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
+define('TEXT_INPUT_FIELD_MASK_DEFINITIONS_TIP_ICON','
+[abc]	- Any character between the brackets<br>
+[^abc] - Any character NOT between the brackets<br>
+[0-9] - Any digit between the brackets<br>
+(x|y)- Any of the alternatives specified
+');
 define('TEXT_FIELDTYPE_QRCODE_TITLE','Κωδικός QR');
 define('TEXT_FIELDTYPE_QRCODE_TOOLTIP','Πεδίο για τη δημιουργία κωδικού QR');
 define('TEXT_QRCODE_PATTERN','Πρότυπο για κωδικοποίηση');
@@ -955,8 +956,8 @@ define('TEXT_DISPLAYS_ASSIGNED_ITEMS_ONLY','Εμφανίζει μόνο τις �
 define('TEXT_DISPLAYS_ASSIGNED_ITEMS_ONLY_INFO','Προσθέτει ένα φίλτρο για τον τρέχοντα χρήστη');
 define('TEXT_ROWS_PER_PAGE_IF_NOT_SET','Εάν δεν έχει οριστεί, εμφανίζει όλες τις εγγραφές.');
 define('TEXT_CONFIGURE_FILTERS','Διαμόρφωση φίλτρων');
-#VALUE!
-#VALUE!
+
+//new defines for version 2.0
 define('TEXT_IFRAME','iFrame');
 define('TEXT_BUTTON_SEND','Στέλνω');
 define('TEXT_FIELDTYPE_INPUT_EMAIL_TITLE','Πεδίο εισαγωγής E-mail');
@@ -1004,12 +1005,12 @@ define('TEXT_FIELDTYPE_DROPDOWN_MULTILEVEL_VALUE_DISPLAY_TIP','Από προεπ
 define('TEXT_COLUMNS_IMPORT','Εισαγωγή στηλών');
 define('TEXT_COLUMNS_IMPORT_INFO','Για να εισαγάγετε μια απλή λίστα, πληκτρολογήστε 1 - θα εισαχθεί η πρώτη στήλη. Για τιμές που εξαρτώνται από την εισαγωγή, όπως (χώρα/ζώνη) καθορίστε το 2. Σε αυτήν την περίπτωση, θα διαβαστούν οι δύο πρώτες στήλες του αρχείου. Οι τιμές στις σειρές δεν πρέπει να είναι κενές.');
 define('TEXT_DASHBOARD_DEFAULT_MSG','<h3 class="page-title">Καλώς ήρθατε!</h3><p>Αυτή είναι η κύρια σελίδα για το σύστημά σας. Είναι άδειο τώρα, αλλά μπορείτε να εμφανίσετε διάφορες αναφορές και μετρητές.</p><p>Για να εμφανίσετε την πρώτη σας αναφορά, επιλέξτε "Αναφορές" στο αριστερό μενού πλοήγησης, δημιουργήστε αναφορά και ορίστε την επιλογή "Στον πίνακα ελέγχου". </p>');
-define('TEXT_DASHBOARD_DEFAULT_ADMIN_MSG','#VALUE!');
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
+define('TEXT_DASHBOARD_DEFAULT_ADMIN_MSG','<h3 class="page-title">Welcome to the Rukovoditel – your new assistant in business management!</h3>
+<p>This is the main page for your system. It\'s empty now, but you can display various reports and counters.</p>
+<p>In order to display your first report, select  "Reports" on left navigation menu, create report and set option "In Dashboard".</p>
+<p>Also we recommend you to visit the "<a href="https://docs.rukovoditel.net/index.php" target="_blank">Documentation</a>". There you will find various tips on setting up the system.</p>
+<p>Still have questions? You can always contact us!</p>
+<p><a href="https://www.rukovoditel.net" target="_blank">www.rukovoditel.net</a></p>');
 define('TEXT_FILES_UPLOAD_LIMIT','Όριο μεταφόρτωσης');
 define('TEXT_FILES_UPLOAD_LIMIT_TIP','Ο μέγιστος αριθμός αρχείων που μπορούν να μεταφορτωθούν. Αφήστε κενό για να αφαιρέσετε οποιοδήποτε όριο.');
 define('TEXT_FILES_UPLOAD_SIZE_LIMIT','Όριο μεγέθους αρχείου');
