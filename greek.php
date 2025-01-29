@@ -4,7 +4,7 @@
 * Βλ. Αναφορά κώδικα γλώσσας
 * http://www.w3schools.com/tags/ref_language_codes.asp
 */
-define('APP_LANGUAGE_SHORT_CODE','en');
+define('APP_LANGUAGE_SHORT_CODE','el');
 
 /**
 * Ορίστε την κατεύθυνση του κειμένου: (ltr ή rtl)
