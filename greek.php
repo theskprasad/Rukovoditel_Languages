@@ -219,12 +219,12 @@ define('TEXT_SORT_ORDER','Σειρά ταξινόμησης');
 define('TEXT_HEADING_DELETE','Διαγράφω;');
 define('TEXT_DEFAULT_DELETE_CONFIRMATION','Είστε βέβαιοι ότι θέλετε να διαγράψετε το "%s";');
 define('TEXT_NO_RECORDS_FOUND','Δεν βρέθηκαν εγγραφές');
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
-#VALUE!
+define('TEXT_DISPLAY_NUMBER_OF_ITEMS', 'Displaying <nobr><strong>%s</strong> to <strong>%s</strong></nobr> <nobr>(of <strong>%s</strong> items)</nobr>');
+define('PREVNEXT_TITLE_PREVIOUS_PAGE', 'Previous Page');
+define('PREVNEXT_TITLE_NEXT_PAGE', 'Next Page');
+define('PREVNEXT_TITLE_PAGE_NO', 'Page %d');
+define('PREVNEXT_TITLE_PREV_SET_OF_NO_PAGE', 'Previous Set of %d Pages');
+define('PREVNEXT_TITLE_NEXT_SET_OF_NO_PAGE', 'Next Set of %d Pages');
 define('TEXT_WARN_DELETE_SUCCESS','Η εγγραφή <b>%s</b> διαγράφηκε επιτυχώς');
 define('TEXT_WIDHT','Πλάτος');
 define('TEXT_HEIGHT','Υψος');
