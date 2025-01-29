@@ -242,7 +242,7 @@ define('TEXT_INACTIVE','Αδρανής');
 define('TEXT_IS_DEFAULT','Είναι προεπιλογή;');
 define('TEXT_IS_LDAP_DEFAULT','Είναι προεπιλεγμένο το LDAP;');
 define('TEXT_ADMINISTRATOR','Διαχειριστής');
-#VALUE!
+
 define('TEXT_LOGIN_DETAILS','Στοιχεία σύνδεσης');
 define('TEXT_MY_ACCOUNT','Ο λογαριασμός μου');
 define('TEXT_CHANGE_SKIN','Αλλαγή δέρματος');
@@ -369,7 +369,7 @@ define('TEXT_USER_NOT_FOUND','Δεν ταιριάζει με το όνομα χ�
 define('TEXT_USER_IS_NOT_ACTIVE','Ο λογαριασμός σας δεν είναι ενεργός.');
 define('TEXT_PASSWORD_FORGOTTEN','Ξεχάσατε τον κωδικό πρόσβασης;');
 define('TEXT_HEADING_RESTORE_PASSWORD','Επαναφορά κωδικού πρόσβασης');
-#VALUE!
+define('TEXT_RESTORE_PASSWORD_EMAIL_SUBJECT',CFG_APP_NAME . ' - New Password');
 define('TEXT_RESTORE_PASSWORD_EMAIL_BODY','Ζητήθηκε νέος κωδικός πρόσβασης. Τα νέα στοιχεία σύνδεσής σας στο ' . CFG_APP_NAME . ' είναι:');
 define('TEXT_RESTORE_PASSWORD_SUCCESS','Ένας νέος κωδικός πρόσβασης έχει σταλεί στη διεύθυνση e-mail σας.');
 define('TEXT_REMEMBER_ME','Να με θυμάσαι');
@@ -537,8 +537,8 @@ define('TEXT_SIDEBAR_FIXED','Σταθερός');
 define('TEXT_SIDEBAR_POS_LEFT','Αριστερά');
 define('TEXT_SIDEBAR_POS_RIGHT','Δικαίωμα');
 define('TEXT_SCALE_REDUCED','Μειωμένος');
-#VALUE!
-#VALUE!
+
+//new defines for version 1.5
 define('TEXT_FIELDTYPE_RELATED_RECORDS_TITLE','Σχετικά Αντικείμενα');
 define('TEXT_FIELDTYPE_RELATED_RECORDS_TOOLTIP','Το ειδικό πεδίο σάς επιτρέπει να συνδέετε Στοιχεία μεταξύ οντοτήτων');
 define('TEXT_FIELDTYPE_RELATED_RECORDS_SELECT_ENTITY_TOOLTIP','Τα στοιχεία από την επιλεγμένη οντότητα μπορούν να σχετίζονται με στοιχεία από');
@@ -560,8 +560,8 @@ define('TEXT_SELECT_SOME_OPTIONS','Επιλέξτε Μερικές επιλογ�
 define('TEXT_DISPLAY_IN_MENU','Εμφάνιση στο Μενού');
 define('TEXT_MENU_ICON_TITLE','Εικονίδιο μενού');
 define('TEXT_MENU_ICON_TITLE_TOOLTIP','Εισαγάγετε το όνομα του εικονιδίου από <a href="https://fontawesome.com/v4/icons/" target="_blank">Εξαιρετική γραμματοσειρά</a> ή <a href="https://icons8.com/line- awesome" target="_blank">Line Awesome</a> lib.<br>Για παράδειγμα: fa-bell ή la-bell.');
-#VALUE!
-#VALUE!
+
+//new defines for version 1.6
 define('TEXT_FIELDTYPE_INPUT_MASKED','Καταχώριση με μάσκα');
 define('TEXT_FIELDTYPE_INPUT_MASKED_TOOLTIP','Για να εισαγάγετε τα δεδομένα σε συγκεκριμένη μορφή (ημερομηνίες, αριθμοί τηλεφώνου, κ.λπ.)');
 define('TEXT_INPUT_FIELD_MASK','Μάσκα');
